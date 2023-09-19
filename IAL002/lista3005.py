@@ -1,0 +1,6 @@
+# 	Dado um número inteiro n (n>1), exibir os números de n-1 até 0. Quantos serão impressos?
+
+n = int(input("Digite n>1: "))
+
+for i in range(n-1, 0, -1):
+    print(i)
