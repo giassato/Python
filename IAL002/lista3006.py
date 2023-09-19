@@ -2,7 +2,7 @@
 
 n = int(input("Digite n>1: "))
 
-for i in range(n-1, 1, -1):
-    print(i)
+for i in range(n-1, 0, -1):
+    print("Valor", i)
 
 
